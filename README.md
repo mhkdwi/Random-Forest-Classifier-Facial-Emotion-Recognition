@@ -38,4 +38,4 @@ It provides a lightweight yet effective approach for facial emotion recognition 
 
 ## Data
 
-Data from [kaggle](https://www.kaggle.com/) and [pinterest](https://id.pinterest.com/)
+Data for training from [kaggle](https://www.kaggle.com/) and [pinterest](https://id.pinterest.com/)
