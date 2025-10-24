@@ -31,6 +31,8 @@ It provides a lightweight yet effective approach for facial emotion recognition 
 ## 🖼️ Example Output
 
 <img width="150" height="120" alt="Image" src="https://github.com/user-attachments/assets/6d1bcf59-6557-42b2-87f3-cdf6162b8c17" />
+<img width="150" height="120" alt="Image" src="https://github.com/user-attachments/assets/78dc6a86-6590-42bc-8451-36da26d94c98" />
+
 
 ---
 
