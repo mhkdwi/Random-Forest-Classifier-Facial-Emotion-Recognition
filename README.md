@@ -9,18 +9,18 @@ It provides a lightweight yet effective approach for facial emotion recognition 
 
 ## Program Workflow
 
-### 1. Data Preparation (`prepare_data.py`)
-- Reads facial images from the `data/` directory, each subfolder representing an emotion.  
+### 1. Data Preparation (prepare_data.py)
+- Reads facial images from the data directory, each subfolder representing an emotion.  
 - Extracts **468 face landmarks × 3 coordinates (x, y, z)** using MediaPipe.  
-- Saves the landmark features and emotion labels into `data.txt`.
+- Saves the landmark features and emotion labels into`data.txt.
 
-### 2. Model Training (`train_model.py`)
-- Loads `data.txt` and splits it into training and testing sets.  
+### 2. Model Training (train_model.py)
+- Loads data.txt and splits it into training and testing sets.  
 - Trains a **Random Forest Classifier** to learn the relationship between facial landmarks and emotion categories.  
 - Prints out accuracy and confusion matrix for evaluation.  
-- Saves the trained model to `model` using pickle.
+- Saves the trained model to mode` using pickle.
 
-### 3. Real-Time Prediction (`test_model.py`)
+### 3. Real-Time Prediction (test_model.py)
 - Opens webcam using OpenCV and captures each frame.  
 - Extracts face landmarks in real time using MediaPipe.  
 - Predicts the emotion class with the trained Random Forest model.  
