@@ -1,4 +1,4 @@
-# 🎭 Facial Emotion Recognition using Face Landmarks
+# Facial Emotion Recognition using Face Landmarks
 
 This project detects human facial emotions in real time using **MediaPipe Face Mesh** and **Random Forest Classifier**.  
 By analyzing the geometric structure of the face through 3D landmarks, the system recognizes basic facial expressions such as **Happy**, **Sad**, and **Surprised**.  
@@ -7,7 +7,7 @@ It provides a lightweight yet effective approach for facial emotion recognition 
 
 ---
 
-## 🧩 Program Workflow
+## Program Workflow
 
 ### 1. Data Preparation (`prepare_data.py`)
 - Reads facial images from the `data/` directory, each subfolder representing an emotion.  
@@ -28,7 +28,7 @@ It provides a lightweight yet effective approach for facial emotion recognition 
 
 ---
 
-## 🖼️ Example Output
+## Example Output
 
 <img width="150" height="120" alt="Image" src="https://github.com/user-attachments/assets/6d1bcf59-6557-42b2-87f3-cdf6162b8c17" />
 <img width="150" height="120" alt="Image" src="https://github.com/user-attachments/assets/78dc6a86-6590-42bc-8451-36da26d94c98" />
